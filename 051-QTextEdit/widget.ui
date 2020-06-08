@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>410</width>
-    <height>328</height>
+    <width>396</width>
+    <height>370</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,7 @@
     <widget class="QLabel" name="label">
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
+       <pointsize>17</pointsize>
       </font>
      </property>
      <property name="text">
@@ -39,6 +37,13 @@
        <weight>75</weight>
        <bold>true</bold>
       </font>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButtonReadOnly">
+     <property name="text">
+      <string>ReadOnly Disable</string>
      </property>
     </widget>
    </item>
@@ -122,7 +127,7 @@
      <item>
       <widget class="QPushButton" name="pushButtonGrapHtml">
        <property name="text">
-        <string>Grab Html</string>
+        <string>Grap Html</string>
        </property>
       </widget>
      </item>
